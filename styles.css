@@ -1,6 +1,6 @@
 body {
     font-family: "Happy Monkey", serif;
-    background: #27292c;
+    background: linear-gradient(blue,pink);
     color: white;
     text-align: center;
 }
