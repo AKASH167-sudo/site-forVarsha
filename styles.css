@@ -1,0 +1,122 @@
+body {
+    font-family: "Happy Monkey", serif;
+    background: #27292c;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.textshadow
+{
+    text-shadow : 0px 0px 1px lightpink;
+    padding : 10px 15px;
+    border-radius : 15px;
+    background-color: lightpink;
+    color : black;
+    margin-bottom : 20px;
+    margin-top : 20px;
+}
+
+#face
+{
+    width : 200px;
+    border-radius : 100%;
+    border : 6px solid lightpink;
+}
+
+#header
+{
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+}
+
+.cover
+{
+    width : 400px;
+    height : 400px;
+    margin-top : 20px;
+    margin : 0px auto;
+    border : 5px solid white;
+    border-radius : 10px;
+    background-image : url("https://plus.unsplash.com/premium_photo-1672233867062-64af815416dd?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size : cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover:hover
+{
+    background-image : url("https://i.guim.co.uk/img/media/3aab8a0699616ac94346c05f667b40844e46322f/0_123_5616_3432/master/5616.jpg?width=700&quality=85&auto=format&fit=max&s=a476da702aff265ce6f586be1412b1e1");
+    background-size : cover;
+}
+
+#gift
+{
+    margin-top : 50px;
+}
+
+#second-gift
+{
+    margin-top : 80px;
+}
+
+#third-gift
+{
+    margin-top : 80px;
+}
+
+.cover2
+{
+    width : 400px;
+    height : 600px;
+    margin-top : 20px;
+    margin : 0px auto;
+    border : 5px solid white;
+    border-radius : 10px;
+    background-image : url("https://plus.unsplash.com/premium_photo-1672233867062-64af815416dd?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size : cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover2:hover
+{
+    background-image: url("https://i.redd.it/lvi19zy1xq0c1.jpg");
+    background-size: cover;
+    
+}
+
+.cover3
+{
+    width : 400px;
+    height : 200px;
+    margin-top : 20px;
+    margin : 0px auto;
+    border : 5px solid white;
+    border-radius : 10px;
+    background-image : url("https://plus.unsplash.com/premium_photo-1672233867062-64af815416dd?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size : cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover3:hover
+{
+    background-image : url("https://media.tenor.com/-lVZ-7VgRwgAAAAM/leonardodicaprio-cheers.gif");
+    background-size : cover;
+}
+
+#footer
+{
+    width : 400px;
+    margin : 40px auto 20px; 
+}
+
+a
+{
+    color : yellow !important;
+}
